@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import { Grid, Card, CardContent, Typography, Container, Stack } from '@mui/material';
-import { alpha } from '@mui/material';
 
 export default function Featured({ searchTerm }) {
   const [books, setBooks] = useState([]);

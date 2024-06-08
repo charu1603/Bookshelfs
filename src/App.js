@@ -1,12 +1,12 @@
 import React, { useState } from 'react';
-import { Container, CssBaseline, ThemeProvider, createTheme } from '@mui/material';
+import { Container, CssBaseline, ThemeProvider} from '@mui/material';
 import Hero from './components/Hero';
 import Navbar from './components/Navbar';
 import darkTheme from '../src/components/theme';
 import Featured from './components/Featured';
 import './index.css';
 
-const theme = createTheme();
+
 
 function App() {
   const [searchTerm, setSearchTerm] = useState('');
