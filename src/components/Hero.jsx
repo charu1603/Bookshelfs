@@ -74,7 +74,7 @@ return(
               variant="outlined"
               value={searchTerm}
               onChange={(e) => setSearchTerm(e.target.value)}
-              sx={{ width: { xs: '90%', sm: '70%' } }}
+              sx={{ width: { xs: '90%', sm: '80%' } }}
             />
             <Button variant="contained" color="primary" onClick={handleSearch} sx={{ width: 'fit-content' }}>
               Search
