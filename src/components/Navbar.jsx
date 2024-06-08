@@ -1,8 +1,7 @@
 import React from 'react';
-import PropTypes from 'prop-types';
 import { AppBar, Box, Container, Toolbar } from '@mui/material';
 
-function Navbar({ mode}) {
+function Navbar() {
   return (
     <div>
       <AppBar
